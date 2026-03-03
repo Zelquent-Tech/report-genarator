@@ -1,11 +1,22 @@
-<div align="center">
+# Business Analysis & Intelligence Platform
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A comprehensive dashboard for business metrics analysis, reporting, and AI-driven growth strategies.
 
-  <h1>Built with AI Studio</h2>
+## Features
+- **Data Dashboard**: Real-time visualization of revenue, expenses, and customer growth.
+- **AI Analysis**: Automated insights into profit margins and anomalies.
+- **CSV Upload**: Easy data import from standard business metrics files.
+- **PDF Reports**: Generate professional executive reports for stakeholders.
+- **Secure Auth**: Personal accounts with persistent data storage.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Tech Stack
+- **Frontend**: React, Tailwind CSS, Recharts, Lucide Icons, Framer Motion.
+- **Backend**: Express, SQLite (better-sqlite3).
+- **AI**: Google Gemini API for strategic recommendations.
+- **Build Tool**: Vite.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+## Deployment
+This project is configured for deployment on **Render**.
+- Build Command: `npm install && npm run build`
+- Start Command: `npm start`
+- Required Env Vars: `GEMINI_API_KEY`
